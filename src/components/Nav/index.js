@@ -8,24 +8,24 @@ function Nav(props) {
     } = props
 
     return (
-        <header className="flex-row px-1">
-            <h2>
+        <header>
+            <h1>
                 <a href="/">
-                    <span>Brent "uberbrent" Johnson</span>
+                    <span>brent.johnson</span>
                 </a>
-            </h2>
+            </h1>
             <nav>
                 <ul className="flex-row">
                     {categories.map((category) => (
                         <li
-                            className={`mx-1 ${currentCategory.name === category.name}`}
-                            key={category.name}
+                            className={`mx-1 ${currentCategory === category}`}
+                            key={category}
                         >
                             <span
                                 onClick={() => {
                                     setCurrentCategory(category)
                                 }}
-                            >{category.name}</span>
+                            >{category}</span>
                         </li>
                     ))}
                 </ul>

@@ -1,13 +1,92 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+:root {
+  --primary-color: #F4F4F6;
+  --secondary-color: #B8F2E6;
+  --tertiary-color: #060E0F;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+* {
+  padding: 0;
+  margin: 0;
+}
+
+header {
+  padding: 20px 35px;
+  background-color: var(--secondary-color);
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  top: 0;
+  background-image: url("./assets/hero.jpeg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+body {
+  color: var(--primary-color);
+  margin: 0;
+}
+
+header h1 {
+  font-size: 48px;
+  margin: 15px;
+  text-decoration: none;
+  color: var(--tertiary-color);
+  background: white;
+  border-bottom: 2px solid var(--tertiary-color);
+  text-align: center;
+}
+
+header nav ul li {
+  text-align: center;
+}
+
+header span {
+  color: var(--tertiary-color);
+}
+
+header nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header nav ul li span {
+  font-size: 2.5vw;
+  margin: 15px;
+  text-decoration: none;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+}
+
+header nav ul li:hover {
+  background: var(--secondary-color);
+  color: white;
+  text-shadow: none;
+  border-radius: 15px;
+}
+
+/* About Section */
+
+.about-section {
+  padding: 20px 35px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  top: 0;
+}
+
+#photo {
+  border-radius: 8px;
+  height: 50%;
+  width: 50%;
+}
+
+.about-header {
+  color: var(--tertiary-color);
+}
+
+.about-text {
+  color: var(--tertiary-color);
 }
