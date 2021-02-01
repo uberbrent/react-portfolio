@@ -1,3 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 :root {
   --primary-color: #F4F4F6;
   --secondary-color: #B8F2E6;
@@ -54,7 +58,7 @@ header nav ul {
 }
 
 header nav ul li span {
-  font-size: 2.5vw;
+  font-size: 2.5rem;
   margin: 15px;
   text-decoration: none;
   text-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
@@ -69,24 +73,45 @@ header nav ul li:hover {
 
 /* About Section */
 
-.about-section {
-  padding: 20px 35px;
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  top: 0;
-}
-
-#photo {
-  border-radius: 8px;
-  height: 50%;
-  width: 50%;
-}
-
-.about-header {
+.about-head {
+  font-size: 2.5rem;
   color: var(--tertiary-color);
 }
 
 .about-text {
+  font-size: 1.5rem;
+  color: var(--tertiary-color);
+}
+
+/* Contact Form */
+
+.contact-head {
+  font-size: 1.5rem;
+  color: var(--tertiary-color);
+}
+
+#contact-form {
+  color: var(--tertiary-color);
+}
+
+/* Resume */
+
+.resume-head {
+  font-size: 3rem;
+  color: var(--tertiary-color);
+}
+
+.resume-link {
+  font-size: 1.5rem;
+  color: var(--tertiary-color);
+}
+
+.resume-list-head {
+  font-size: 1.5rem;
+  color: var(--tertiary-color);
+}
+
+.resume-list {
+  font-size: 1rem;
   color: var(--tertiary-color);
 }
