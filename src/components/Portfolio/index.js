@@ -1,26 +1,19 @@
 import React from 'react';
+import ProjectCard from '../ProjectCard'
+import projectList from '../../projects.json';
 
 function Portfolio() {
     return(
-        <section>
-            <div>
-                Item 1
-            </div>
-            <div>
-                Item 2
-            </div>
-            <div>
-                Item 3
-            </div>
-            <div>
-                Item 4
-            </div>
-            <div>
-                Item 5
-            </div>
-            <div>
-                Item 6
-            </div>
+        <section className="flex">
+            {projectList.map((project) => (
+                <ProjectCard 
+                  name={project.name}
+                  image={project.image}
+                  deployed={project.deploy}
+                  github={project.github}
+                  key={project.name}
+                />    
+            ))}
         </section>
     )
 }

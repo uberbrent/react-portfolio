@@ -1,0 +1,44 @@
+[
+    {
+        "id": 1,
+        "name": "wordUp",
+        "image": "../../assets/wordUp.PNG",
+        "deploy": "https://fast-shelf-56121.herokuapp.com",
+        "github":   "https://github.com/njderenne/wordUp"
+    },
+    {
+        "id": 2,
+        "name": "HowToDotHelp",
+        "image": "../../assets/howtodothelp.PNG",
+        "deploy": "https://how-to-dot-help.herokuapp.com/",
+        "github":   "https://github.com/geigea84/how-to-dot-help"
+    },
+    {
+        "id": 3,
+        "name": "Dungeons and Dragons 5e Campaign Resource",
+        "image": "../../assets/dnd5eresource.PNG",
+        "deploy": "https://cgsdesign.github.io/table-top-resource/",
+        "github":   "https://github.com/cgsdesign/table-top-resource"
+    },
+    {
+        "id": 4,
+        "name": "Run Buddy",
+        "image": "../../assets/run-buddy.PNG",
+        "deploy": "https://uberbrent.github.io/run-buddy/",
+        "github":   "https://github.com/uberbrent/run-buddy"
+    },
+    {
+        "id": 5,
+        "name": "Work-Day Scheduler",
+        "image": "../../assets/workday-scheduler.PNG",
+        "deploy": "https://uberbrent.github.io/workday-scheduler/",
+        "github":   "https://github.com/uberbrent/workday-scheduler"
+    },
+    {
+        "id": 6,
+        "name": "Shop-Shop",
+        "image": "../../assets/shopshop.PNG",
+        "deploy": "https://shielded-fortress-53598.herokuapp.com/",
+        "github":   "https://github.com/uberbrent/shop-shop"
+    }
+]
