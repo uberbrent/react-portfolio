@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/react-portfolio/static/css/main.22877523.chunk.css",
+    "main.js": "/react-portfolio/static/js/main.d3140e44.chunk.js",
+    "main.js.map": "/react-portfolio/static/js/main.d3140e44.chunk.js.map",
+    "runtime-main.js": "/react-portfolio/static/js/runtime-main.aef1985b.js",
+    "runtime-main.js.map": "/react-portfolio/static/js/runtime-main.aef1985b.js.map",
+    "static/js/2.b39fbb9a.chunk.js": "/react-portfolio/static/js/2.b39fbb9a.chunk.js",
+    "static/js/2.b39fbb9a.chunk.js.map": "/react-portfolio/static/js/2.b39fbb9a.chunk.js.map",
+    "static/js/3.2a7d8172.chunk.js": "/react-portfolio/static/js/3.2a7d8172.chunk.js",
+    "static/js/3.2a7d8172.chunk.js.map": "/react-portfolio/static/js/3.2a7d8172.chunk.js.map",
+    "index.html": "/react-portfolio/index.html",
+    "static/css/main.22877523.chunk.css.map": "/react-portfolio/static/css/main.22877523.chunk.css.map",
+    "static/js/2.b39fbb9a.chunk.js.LICENSE.txt": "/react-portfolio/static/js/2.b39fbb9a.chunk.js.LICENSE.txt",
+    "static/media/Dungeons and Dragons 5e Campaign Resource.PNG": "/react-portfolio/static/media/Dungeons and Dragons 5e Campaign Resource.10dee532.PNG",
+    "static/media/HowToDotHelp.PNG": "/react-portfolio/static/media/HowToDotHelp.65f58056.PNG",
+    "static/media/Run Buddy.PNG": "/react-portfolio/static/media/Run Buddy.f88de758.PNG",
+    "static/media/Shop-Shop.PNG": "/react-portfolio/static/media/Shop-Shop.11c44058.PNG",
+    "static/media/Work-Day Scheduler.PNG": "/react-portfolio/static/media/Work-Day Scheduler.f9aab220.PNG",
+    "static/media/goodBrent.jpg": "/react-portfolio/static/media/goodBrent.7023bd3b.jpg",
+    "static/media/index.css": "/react-portfolio/static/media/hero.ca06b194.jpeg",
+    "static/media/wordUp.PNG": "/react-portfolio/static/media/wordUp.db7bcd11.PNG"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.aef1985b.js",
+    "static/js/2.b39fbb9a.chunk.js",
+    "static/css/main.22877523.chunk.css",
+    "static/js/main.d3140e44.chunk.js"
+  ]
+}
