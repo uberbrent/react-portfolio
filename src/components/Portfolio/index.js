@@ -4,7 +4,7 @@ import projectList from '../../projects.json';
 
 function Portfolio() {
     return(
-        <section className="flex">
+        <section className="flex flex-wrap flex-auto">
             {projectList.map((project) => (
                 <ProjectCard 
                   name={project.name}

@@ -12,7 +12,7 @@ function ProjectCard(props) {
                         <strong>Name:</strong> {props.name}
                     </li>
                     <li className="text-black">
-                        <a className="text-black" href={props.deployed} target="_blank" rel="nonreferrer"><strong>Deployed</strong></a>
+                        <a className="text-black" href={props.deployed} target="_blank" rel="nonreferrer"><strong>Deployed Link</strong></a>
                     </li>
                     <li className="text-black">
                         <a href={props.github} target="_blank" rel="nonreferrer"><strong>GitHub Repository</strong></a>
